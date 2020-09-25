@@ -1,6 +1,11 @@
 # ulauncher-youtube-search
 Extension for ulancher to perform youtube searchs. By default, it returns the first 10 results.
 
+Due to the lack of maintenance of [other projects](https://github.com/lifeofcoding/ulauncher-youtube), I decided to implement an improved version that actually works to date.
+
+## Overview
+![](images/youtube_search.gif )
+
 ## Requirements
 
 * [Ulauncher](https://github.com/Ulauncher/Ulauncher) 5.0+
