@@ -1,0 +1,4 @@
+requests
+regex
+urllib3
+logging
