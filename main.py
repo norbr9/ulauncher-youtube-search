@@ -1,4 +1,3 @@
-
 import logging
 from youtubeSearch import YoutubeSearch
 from ulauncher.api.client.Extension import Extension

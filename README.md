@@ -1,5 +1,5 @@
 # ulauncher-youtube-search
-Extensions for ulancher to perform youtube searchs. By default, it returns the first 10 results.
+Extension for ulancher to perform youtube searchs. By default, it returns the first 10 results.
 
 ## Requirements
 
@@ -25,6 +25,8 @@ You will find out how the groups extract the desired information.
 
 
 ## Installation
+Make sure you have installed pip3. 
+
 Open ulauncher preferences window -> extensions -> add extension and paste the following url:
 
 ```
@@ -38,3 +40,7 @@ https://github.com/norbr9/ulauncher-youtube-search
 ## Links
 * [Ulauncher Extensions](https://ext.ulauncher.io/)
 * [Ulauncher 5.0 (Extension API v2.0.0) — Ulauncher 5.0.0 documentation](http://docs.ulauncher.io/en/latest/)
+
+
+## TODO
+It would be interesting to stop any music player that has already been opened. Moreover, to close any previous youtube browser tab and then open the new search. 
