@@ -9,7 +9,7 @@ class YoutubeSearch():
     MAX_RESULTS = 10
 
     # If result execeds this value it will be treated as junk and removed
-    RESULT_CHAR_LIMIT=70
+    RESULT_CHAR_LIMIT = 300
 
     BASE_URL = "https://youtube.com/results?search_query="
 
