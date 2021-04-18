@@ -20,7 +20,7 @@ class YoutubeSearch():
         encoded_url = YoutubeSearch.BASE_URL + urllib.parse.quote(query)
 
         logger.debug('Performing request to ' + encoded_url)
-        response = requests.get(encoded_url)
+        response = requests.get(encoded_url, cookies={'CONSENT': 'PENDING+999'})
 
         result = re.findall(YoutubeSearch.REX, response.text)
         logger.debug('obtained regex response : ' + str(result))
