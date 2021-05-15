@@ -2,6 +2,7 @@ import urllib.parse
 import requests
 import logging
 import re
+import random
 
 logger = logging.getLogger(__name__)
 
@@ -20,7 +21,7 @@ class YoutubeSearch():
         encoded_url = YoutubeSearch.BASE_URL + urllib.parse.quote(query)
 
         logger.debug('Performing request to ' + encoded_url)
-        response = requests.get(encoded_url, cookies={'CONSENT': 'PENDING+999'})
+        response = requests.get(encoded_url, cookies={'CONSENT': 'YES+cb.20210328-17-p0.en-GB+FX+{}'.format(random.randint(100, 999))})
 
         result = re.findall(YoutubeSearch.REX, response.text)
         logger.debug('obtained regex response : ' + str(result))
