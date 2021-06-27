@@ -1,5 +1,9 @@
 import logging
+import gi
+gi.require_version('Gdk', '3.0')
+
 from youtubeSearch import YoutubeSearch
+
 from ulauncher.api.client.Extension import Extension
 from ulauncher.api.client.EventListener import EventListener
 from ulauncher.api.shared.event import KeywordQueryEvent
